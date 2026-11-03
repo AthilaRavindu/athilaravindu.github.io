@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Inkspire — Tattoo Inspiration &amp; Guides</title>
+  <meta name="description" content="Inkspire — tattoo inspiration, style guides, aftercare advice, and artist resources.">
+
+  <!-- Pinterest reads this when claiming the domain. The redirect below is
+       JavaScript, not a meta refresh, so a crawler still parses this tag. -->
+  <meta name="p:domain_verify" content="1ec3d46a80dc0b624bf3d7178bb638fd">
+
+  <link rel="canonical" href="https://athilaravindu.github.io/InkSpire/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23b52019'/><text x='16' y='23' text-anchor='middle' font-family='Impact,Arial Black,sans-serif' font-size='18' font-weight='900' fill='white' letter-spacing='-1'>IS</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:opsz,wght@9..40,400;9..40,600&display=swap" rel="stylesheet">
+
+  <style>
+    :root{--bg:#f2ebe2;--ink:#150f0b;--muted:#7d6d62;--accent:#b52019;}
+    @media(prefers-color-scheme:dark){:root{--bg:#15100c;--ink:#f6efe7;--muted:#a9978a;}}
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{background:var(--bg);color:var(--ink);font-family:'DM Sans',system-ui,sans-serif;
+         min-height:100vh;display:grid;place-items:center;padding:1.5rem;text-align:center;}
+    .brand{font-family:'Bebas Neue',Impact,sans-serif;font-size:clamp(3rem,12vw,5rem);
+           letter-spacing:.06em;line-height:1;}
+    .brand span{color:var(--accent);}
+    p{color:var(--muted);margin:.9rem 0 2rem;font-size:1.05rem;}
+    a.cta{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;
+          font-weight:600;letter-spacing:.03em;padding:.9rem 2.2rem;border-radius:10px;
+          transition:transform .2s,opacity .2s;}
+    a.cta:hover{transform:translateY(-2px);opacity:.92;}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">INK<span>SPIRE</span></div>
+    <p>Tattoo inspiration, style guides, and aftercare advice.</p>
+    <a class="cta" href="/InkSpire/">Enter the site →</a>
+  </main>
+
+  <script>
+    // Send people through, but only after the document has parsed, so crawlers
+    // reading the verification tag are unaffected.
+    setTimeout(function () {
+      window.location.replace('/InkSpire/');
+    }, 1200);
+  </script>
+</body>
+</html>
